@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+}
+
+.main{
+    height: 700px;
+    width: 1300px;
+    background-color: whitesmoke;
+    margin-left: 100px;
+    
+    
+}
+.main1{
+    height: 600px;
+    width: 1200px;
+    background-color: whitesmoke;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+
+    
+}
+.flex{
+    display: flex;
+}
+.box {
+    height: 250px;
+    width: 230px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(198, 193, 193);
+  
+}
+
+.line{
+    display: flex;
+    margin-left: 700px;
+}
+h3{
+color: rgb(0, 201, 237);
+}
+.box:hover{
+    box-shadow: 1px 1px 20px black;
+    transition-delay: 1s;
+}
